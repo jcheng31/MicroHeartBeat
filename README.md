@@ -6,7 +6,7 @@ If your (.NET Micro Framework) application needs a regular, heartbeat-like event
 This helper class was originally created for the [AgentIntervals](https://github.com/jcheng31/AgentIntervals) app. It's essentially just a wrapper around the stock `Timer` class, but with several methods to add useful functionality.
 
 ## Quick Start
-Include the contents of the bin/Release folder in your project, and add a reference to `MicroHeartBeat.dll`.
+Include the contents of the bin/Release folder in your project, and add a reference to `MicroHeartBeat.dll`. Alternatively, just drop `HeartBeat.cs` in your project.
 
 ## Example Usage
     public class ExampleClass
